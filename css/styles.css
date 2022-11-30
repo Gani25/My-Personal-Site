@@ -1,0 +1,144 @@
+body {
+  color: #40514e;
+  margin: 0px;
+  text-align: center;
+  font-family: "Merriweather", serif;
+
+  /* font-family: "Montserrat", sans-serif; */
+  /* font-size: 2rem; */
+}
+h1 {
+  font-size: 5.625rem;
+  margin: 50px auto 0px auto;
+  font-family: "Sacramento", cursive;
+  /* line-height: 2; */
+  color: #66bfbf;
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  color: #66bfbf;
+  padding-bottom: 10px;
+}
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #11999e;
+}
+p {
+  line-height: 2;
+}
+hr {
+  border: dotted #eaf6f6 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
+}
+a {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover {
+  color: #eaf6f6;
+}
+.top-container {
+  background-color: #eaf6f6;
+  position: relative;
+  padding-top: 100px;
+}
+.asp-underline {
+  text-decoration: underline;
+}
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+.bottom-cloud {
+  position: absolute;
+  left: 250px;
+  bottom: 300px;
+}
+.middle-container {
+  margin: 100px 0;
+}
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.copyright {
+  color: #eaf6f6;
+  font-size: 0.75rem;
+  padding: 20px 0;
+}
+.skills {
+  margin-top: 80px;
+}
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  /* line-height: 2; I want all the paragraph to follow consistency 
+  so instead of specifying line height in classes I will directly
+  apply to p tag */
+}
+.profile-pic {
+  margin-top: 4rem;
+  width: 20%;
+}
+.prog-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+/* .coding-desc {
+  clear: left;
+} */
+.deadlift-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+/* .muscle-desc {
+  clear: right;
+} */
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+/* Button css from css3buttongenerator.com */
+.btn {
+  background: #11cdd4;
+  background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+  background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  margin: 100px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30e3cb;
+  background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+  text-decoration: none;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 50px 0 20px;
+}
